@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/yourBooking"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Your Bookings" />
+
+        <item
+            android:id="@+id/Parking"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Know Your Parking" />
+
+
+        <item
+            android:id="@+id/scann"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Scan for Auth" />
+    </group>
+
+    <item android:title="Know More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About Us" />
+
+        </menu>
+    </item>
+
+</menu>
